@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--navbar declation-->
+<section class="header-section">
+  <header class="navbar">
+    <div class="container">
+     <div class="logo">
+       <img src="./logo.png" alt="rm logo">
+     </div>
+     <nav>
+       <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">Product</a></li>
+         <li><a href="">About</a></li>
+         <li><a href="">contact</a></li>
+         <li><a href="">account</a></li>
+       </ul>
+       <img src="./cart.png" alt="shopping" width="25px">
+       <button id="cart-btn" onclick="showCart()">Cart (0 dt)</button>
+
+     </nav>
+    </div>
+   </header>
+   <div class="row">
+     <div class="col-2">
+       <h1>donner a votre entrainement<br> un nouveau style</h1>
+       <p>le succé n'est toujours un<br> question de grangeur</p>
+       <a href="">Explorer maintenant &#8594;</a>
+     </div>
+     <div class="col-2">
+       <img src="./image1.png" alt="sport">
+     </div>
+   </div>
+</section>
+<!--selection des categories-->
+<section class="categories">
+  <div class="container">
+    <h2>Categories videttes</h2>
+ <div class="row">
+     <div class="col-3">
+      <img src="./category-1.jpg" alt="cat1">
+     </div>
+     <div class="col-3">
+      <img src="./category-2.jpg" alt="cat2">
+     </div>
+     <div class="col-3">
+      <img src="./category-3.jpg" alt="cat3">
+     </div>
+     <a href="">Entrer et decouvrir &#8594;</a>
+ </div>
+</section>
+<!--mellieurs produits -->
+
+<section class="mellieurs">
+  <div class="container">
+    <h2>Mellieurs produits</h2>
+    <div class="row">
+       <div class="col-4">
+        <img src="./product-1.jpg" alt="prod-1">
+        <h3>mallio rouge</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+       
+          
+      </div>
+      <div class="col-4">
+        <img src="./product-2.jpg" alt="prod2">
+        <h3>basket noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          v
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+        
+       
+      </div>
+      <div class="col-4">
+        <img src="./product-3.jpg" alt="prod3">
+        <h3>pontalon noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+        
+      
+      </div>
+      <div class="col-4">
+        <img src="./product-4.jpg" alt="prod4">
+        <h3>mallio puma noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+        
+       
+      </div>
+      <div class="col-4">
+        <img src="./product-5.jpg" alt="prod5">
+        <h3>basket gray</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+        
+        
+      </div>
+      <div class="col-4">
+        <img src="./product-6.jpg" alt="prod6">
+        <h3>mallio puma x noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+
+        </div>
+      
+      
+      
+    </div>
+    <a href="./index1.html">Decouverir nous produit &#8594;</a>
+  </div>
+</section>
+<!--nouveautes-->
+
+<body class="mellieurs">
+  <section class="container">
+    <h2>Nouveautés</h2>
+    <div class="row">
+      <div class="col-4">
+           <img src="./product-7.jpg" alt="prod6">
+             <h3>chaussette</h3>
+         <div class="rating">
+            
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fas fa-plus-circle"></i>
+                   <span class="qute">0</span>
+                   <i class="fas fa-minus-circle"></i>
+                   <i class="fas fa-trash-alt"></i>
+                       <span class="unitt-price">10</span>
+                       <span><d>dr</span>
+             </div>
+              
+          
+       </div>
+        <div class="col-4">
+            <img src="./product-8.jpg" alt="prod6">
+               <h3>montre noir FOSSIL</h3>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fas fa-plus-circle"></i>
+              <span class="qute">0</span>
+              <i class="fas fa-minus-circle"></i>
+              <i class="fas fa-trash-alt"></i>
+                  <span class="unitt-price">10</span>
+                  <span><d>dr</span>
+            </div>
+            
+        </div>
+        <div class="col-4">
+          <img src="./product-9.jpg" alt="prod6">
+           <h3>montre noir ROADSTER</h3>
+           <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fas fa-plus-circle"></i>
+             <span class="qute">0</span>
+             <i class="fas fa-minus-circle"></i>
+             <i class="fas fa-trash-alt"></i>
+                 <span class="unitt-price">10</span>
+                 <span><d>dr</span>
+           </div>
+          
+        </div>
+      <div class="col-4">
+        <img src="./product-10.jpg" alt="prod6">
+        <h3>basket noir Jordan</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+        
+        </div>
+      <div class="col-4">
+        <img src="./product-11.jpg" alt="prod6">
+        <h3>basket gray puma</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+        
+        </div>
+        
+      <div class="col-4">
+        <img src="./product-12.jpg" alt="prod6">
+        <h3>tenue complete</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fas fa-plus-circle"></i>
+          <span class="qute">0</span>
+          <i class="fas fa-minus-circle"></i>
+          <i class="fas fa-trash-alt"></i>
+              <span class="unitt-price">10</span>
+              <span><d>dr</span>
+        </div>
+
+      </div>
+    </div> 
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script src="main.js" ></script>
+</body>*
+</html>
+ 
