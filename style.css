@@ -5,34 +5,147 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-  font-family: 'Poppins', sans-serif;
-}
+  // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+   @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+  // Large devices (desktops, 992px and up)
+   @media (min-width: 992px) { ... }
+
+   // Extra large devices (large desktops, 1200px and up)
+   @media (min-width: 1200px) { ... }
+   }
+   body{
+   font-family: 'Poppins', sans-serif;
+     // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+   @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+  // Large devices (desktops, 992px and up)
+   @media (min-width: 992px) { ... }
+
+   // Extra large devices (large desktops, 1200px and up)
+   @media (min-width: 1200px) { ... }
+   
+ }
 .navbar{
   display: flex;
   align-items: center;
   padding: 20px;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 
 }
 .logo img{
   width: 150px;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 nav{
   flex: 1;
   text-align: right;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 nav ul{
 display: inline-block;
 list-style-type: none;
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+   @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+  // Large devices (desktops, 992px and up)
+   @media (min-width: 992px) { ... }
+
+   // Extra large devices (large desktops, 1200px and up)
+   @media (min-width: 1200px) { ... }
 }
 nav ul li{
   display: inline-block;
   margin-right: 20px;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 nav ul li a{
   text-decoration: none;
     color: #555;
+    // Extra small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap
+    
+    // Small devices (landscape phones, 576px and up)
+       @media (min-width: 576px) { ... }
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+    
+      // Large devices (desktops, 992px and up)
+       @media (min-width: 992px) { ... }
+    
+       // Extra large devices (large desktops, 1200px and up)
+       @media (min-width: 1200px) { ... }
 }
 .container{
   display: flex;
@@ -44,16 +157,58 @@ nav ul li a{
 margin: 20 px  auto;
 padding-left: 25px;
   padding-right: 25px;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .row{
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .col-2{
   flex-basis: 50%;
  min-width: 300px;
+ // Extra small devices (portrait phones, less than 576px)
+ // No media query for `xs` since this is the default in Bootstrap
+ 
+ // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+ 
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) { ... }
+ 
+   // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+ 
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
 }
 .col-2 img{
   width: 100%;
@@ -63,9 +218,37 @@ padding-left: 25px;
   font-size: 50px;
   line-height: 60px;
   margin: 25px 0;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 p{
   color: #555;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .col-2 a{
   display: inline-block;
@@ -76,33 +259,131 @@ p{
   border-radius: 30px;
   margin-top:  25px;
   transition: background 0.5s;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .col-2 a:hover{
   background-color: #106e77;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .header-section{
   margin-top: -20px;
   background: radial-gradient(#fff, #eaf2fb)
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 
 }
 /*style des cotegories*/
 .categories{
   margin: 70px 0;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .col-3{
   flex-basis: 30%;
   min-width: 300px;
   margin:auto ;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 
 }
 .col-3 img{
   width: 100%;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .container h2{
   text-align: center;
   font-size: 2.2 rem;
   color: #444;
   padding: 50px 0;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 /*section des mellieurs produits*/
 .col-4{
@@ -110,13 +391,70 @@ p{
   min-width: 200px;
   padding: 5px;
   transition: transform 0.3;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
+
 }
 .col-4 img{
   width: 100%;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .col-4:hover{
   transform: translate(-10px);
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
 .rating .fa{
   color: #16a7b4;
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up)
+     @media (min-width: 576px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+    // Large devices (desktops, 992px and up)
+     @media (min-width: 992px) { ... }
+  
+     // Extra large devices (large desktops, 1200px and up)
+     @media (min-width: 1200px) { ... }
 }
